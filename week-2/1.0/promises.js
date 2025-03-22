@@ -8,9 +8,6 @@
 //The resolve and reject functions, when called, resolve or reject the promise, respectively. The executor normally initiates some asynchronous work, and then, once that completes, either calls the resolve function to resolve the promise or else rejects it if an error occurred.
 
 
-
-
-
 function myOwnSetTimeout(fn, duration) {
     setTimeout(fn, duration);
   }

@@ -10,6 +10,7 @@
 let a = 1;
 console.log(a);
 
+
 const fs = require("fs");
 
 fs.readFile("a.txt", "utf-8", (err, data) => {

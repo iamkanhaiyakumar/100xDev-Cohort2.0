@@ -31,7 +31,7 @@ function myOwnSetTimeout(fn, duration) {
   
   myOwnSetTimeout(1000)
     .then(function () {
-      console.log("log the first thing");
+      console.log("kick off the first thing");
     });
 
 
